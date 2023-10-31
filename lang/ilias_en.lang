@@ -1,0 +1,460 @@
+//
+// Copyright (c) 2021 ILIAS open source, Extended GPL, see docs/LICENSE */
+//
+// @author Marko Glaubitz <marko.glaubitz@rz.uni-freiburg.de> aided by ChatGPT
+// @version $Id$
+//
+
+<!-- language file start -->
+obj_xlas#:#Long Text Task (Pilot)
+objs_xlas#:#Long Text Tasks (Pilot)
+obj_xlas_duplicate#:#Duplicate
+objs_xlas_duplicate#:#Copy Long Text Task (Pilot)
+obj_xlas_select#:#Select Long Text Task (Pilot)
+xlas_add#:#Add Long Text Task (Pilot)
+xlas_new#:#New Long Text Task (Pilot)
+xlas_read#:#Read Access to Long Text Task (Pilot)
+xlas_write#:#Edit Long Text Task (Pilot)
+xlas_delete#:#Delete Long Text Task (Pilot)
+xlas_visible#:#Long Text Task is Visible (Pilot)
+xlas_edit_permission#:#Edit Access Rights
+crs_create_xlas#:#Create Long Text Task (Pilot)
+grp_create_xlas#:#Create Long Text Task (Pilot)
+fold_create_xlas#:#Create Long Text Task (Pilot)
+root_create_xlas#:#Create Long Text Task (Pilot)
+cat_create_xlas#:#Create Long Text Task (Pilot)
+maintain_task#:#Manage Task Description
+maintain_writers#:#Manage Implementation
+maintain_correctors#:#Manage Correction
+title#:#Title
+description#:#Description
+status#:#Status
+online#:#Online
+offline#:#Offline
+save#:#Save
+properties#:#Properties
+content#:#Content
+copy#:#Copy
+edit#:#Edit
+export#:#Export
+configuration#:#Configuration
+update_languages#:#Update Languages
+reload_control_structure#:#Reload Control Structure
+generate_db_update#:#Generate DB Update
+writer_url#:#Address for Writer Web App
+writer_url_info#:#The Writer Web App is integrated into the plugin. If you use a separate one for development, enter its address here.
+corrector_url#:#Address for Corrector Web App
+corrector_url_info#:#The Corrector Web App is integrated into the plugin. If you use a separate one for development, enter its address here.
+eskript_url#:#HTTP Address to eSkript
+eskript_url_info#:#Please enter the URL to eSkript. For example: http://www.ilias_installation.de/eskript/
+eskript_key#:#ILIAS Token
+eskript_key_info#:#Please enter this ILIAS token in the file eskript/inc.var.php.
+tab_task#:#Task Creation
+tab_orga_settings#:#Organization
+tab_content_settings#:#Content
+tab_instructions_settings#:#Task Instructions
+tab_solution_settings#:#Solution Hints
+tab_resources#:#Materials
+tab_technical_settings#:#Technology
+tab_criteria#:#Assessment Criteria
+tab_grades#:#Grading Scales
+tab_writer#:#My Exam
+tab_writer_start#:#My Task
+tab_corrector#:#My Correction
+tab_corrector_start#:#Submissions
+tab_writer_admin#:#Participant Management
+tab_writer_admin_log#:#Supervision Log
+tab_corrector_admin#:#Corrector Management
+tab_corrector_export#:#Export Submissions
+object_settings#:#Object Settings
+participation_type#:#Participation
+participation_type_fixed#:#Predefined
+participation_type_fixed_info#:#The possibility to participate is predetermined through a list.
+participation_type_instant#:#Independent
+participation_type_instant_info#:#Participation only requires reading access.
+task_settings#:#Procedure Organization
+writing_start#:#Start of Editing
+writing_start_info#:#From this point onwards, the "Start Editing" button will be displayed for participants, and the task description and materials available after editing begins can be accessed. Without a set start, everything is immediately available.
+writing_end#:#End of Editing
+writing_end_info#:#Entries made until this point are accepted, after which input is locked. In case of connection issues, cached entries in the browser can be sent or authorized later. Without a set end, the task can be edited for an indefinite period.
+correction_start#:#Start of Correction
+correction_start_info#:#From this point onwards, correction staff will see the "Start Displayed Corrections" button, and they can comment on and evaluate the submissions assigned to them, once authorized. Without a set start, this is possible for every submission as soon as it's authorized.
+correction_end#:#End of Correction
+correction_end_info#:#After this point, the "Start Displayed Corrections" button is no longer visible, and no correction entries are accepted. If some corrections are not yet completed, you must extend the period for all of them. Without a set end, correction entries are accepted indefinitely.
+review_start#:#Start of Review
+review_start_info#:#From this point, participants can download a PDF of their corrected submission if their correction has been finalized, and the result is known. Without a set start, the PDF is available immediately after finalization.
+review_end#:#End of Review
+review_end_info#:#Until this point, participants can download the PDF of their corrected submission. Without a set end, the PDF is downloadable indefinitely.
+keep_essay_available#:#Keep Submission Available
+keep_essay_available_info#:#Participants can view their own text read-only and download it as a PDF after the end of editing. You can also enable this option if there were connection problems during submission, and participants need to transfer or authorize their last-minute changes later.
+solution_available#:#Solution Hints Available
+solution_available_info#:#Solution hints and associated materials are available to participants on their homepage.
+solution_available_date#:#Date
+solution_available_date_info#:#Solution hints are displayed starting from this date. Without a set date, they are available immediately.
+result_available_type#:#Result (Points and Grade)
+result_available_type_info#:#Specify when the result (grade and points) should be made available to participants on their homepage.
+label_available#:#Available:
+result_available_finalised#:#when submission is corrected
+result_available_review#:#for review
+result_available_after#:#from a fixed date
+result_available_date#:#Date
+result_available_date_info#:#The result is displayed starting from this point, provided the correction of the submission is finalized. Please note that the result also appears in the PDF of the corrected submission during active review.
+task_definition#:#Task Description
+task_description#:#Preliminary Description
+task_description_info#:#The preliminary description is shown to participants before the editing period.
+task_instructions#:#Task Instructions
+task_instructions_info#:#The task instructions are displayed when editing starts.
+task_solution#:#Solution Hints
+task_solution_info#:#Solution hints are displayed only from a specified time or at the end. This is enabled and configured under "Organization ► Solution Hints Available." Additional hints can be provided as files or web links under "Material."
+editor_settings#:#Editor Settings
+headline_scheme#:#Headings Scheme
+headline_scheme_none#:#Without Numbering
+headline_scheme_numeric#:#Numbered: 1 ‧ 1.1 ‧ 1.1.1
+headline_scheme_edutiek#:#Review: A. ‧ I. ‧ 1 ‧ a. ‧ aa. ‧ (1)
+formatting_options#:#Text Formatting
+formatting_options_none#:#None
+formatting_options_none_info#:#No formatting options
+formatting_options_minimal#:#Minimal
+formatting_options_minimal_info#:#Bold, italics, underline
+formatting_options_medium#:#Medium
+formatting_options_medium_info#:#Bold, italics, underline, bulleted lists
+formatting_options_full#:#High
+formatting_options_full_info#:#Bold, italics, underline, bulleted lists, headings
+notice_boards#:#Notice Boards
+notice_boards_info#:#Number of provided notice boards
+copy_allowed#:#Allow Free Copying
+copy_allowed_info#:#Texts can be copied from other web pages. Copying in the text and from notice boards is always allowed.
+add_resource#:#Add Material
+lp_passed#:#Passed
+lp_passed_info#:#This grade is considered as "passed" for learning progress and prerequisites.
+start_writing#:#Start Editing
+writing_period#:#Editing
+not_specified#:#Not Specified
+period_only_from#:#From
+period_only_until#:#Until
+period_from#:#From
+period_until#:#Until
+correction_period#:#Correction
+review_period#:#Review (for authorized submissions)
+result#:#Result
+submission#:#Submission
+view_submission#:#View Submission
+download_written_submission#:#Download Written Submission
+download_corrected_submission#:#Download Corrected Submission
+task_resources#:#Task Materials
+available#:#Available
+participant#:#Participant
+points#:#Points
+assign_writers#:#Assign Correctors
+0_assigned_correctors#:#No correctors could be assigned.
+1_assigned_corrector#:#One corrector was successfully assigned.
+n_assigned_correctors#:#%s correctors were successfully assigned.
+view_correction#:#View Correction
+change_corrector#:#Change Corrector Assignment
+correctable_exams#:#Submissions to Correct
+writing_status#:#Submission
+writing_status_not_written#:#Did not participate
+writing_status_not_authorized#:#Not submitted
+writing_status_authorized#:#Authorized
+correction_status#:#Correction
+correction_status_not_possible#:#Not possible
+correction_status_open#:#Open
+correction_status_stitch_needed#:#Decision Stitch Needed
+correction_status_finished#:#Completed
+own_grading#:#Own Grading
+grading_not_started#:#Not started
+grading_open#:#Open
+grading_authorized#:#Authorized
+assignment_pos_first#:#First Corrector
+assignment_pos_second#:#Second Corrector
+assignment_pos_x#:#%s. Corrector
+assignment_pos_other#:#Associate Corrector
+assignment_pos_empty#:#Not selected
+start_correction#:#Start Displayed Corrections
+assigned_writings#:#Assigned Submissions
+min_points#:#Minimum Points
+min_points_caption#:#Minimum required points to reach this level.
+add_grade_level#:#Add Grade Level
+grade_levels#:#Grade Levels
+edit_grade_level#:#Edit Grade Level
+delete_grade_level_successful#:#Grade level deleted successfully.
+delete_grade_level_failure#:#Grade level could not be deleted.
+writing_finalized_from#:#Finalized by
+writing_authorized_from#:#Authorized by
+writing_edit_started#:#Started
+writing_not_started#:#Not started
+writing_none_extension#:#None
+participants#:#Participants
+exclude_participant#:#Exclude from Processing
+extent_time#:#Extend Time
+authorize_writing#:#Authorize Submission
+unauthorize_writing#:#Revoke Authorization
+view_processing#:#View Processing
+writing_last_save#:#Last Save
+writing_time_extension#:#Time Extension
+essay_status#:#Submission Status
+search_participants#:#Search Participants
+assign_writer_success#:#Participants successfully added.
+exclude_writer_success#:#Participants successfully excluded.
+missing_writer_id#:#Participant number missing.
+missing_writer#:#Participant not found.
+grade_level#:#Grade Level
+no_writer_set#:#No participant specified.
+exclude_participant_confirmation#:#Do you really want to exclude the following participant from processing?
+exclude#:#Exclude
+edit_time_extension#:#Edit Time Extension
+add_time_extension#:#Add Time Extension
+time_extension_caption#:#Extension of processing end in minutes
+authorize_writing_confirmation#:#Do you really want to authorize the submission from the following participant?
+unauthorize_writing_confirmation#:#Do you really want to revoke the authorization of the submission from the following participant?
+correctors#:#Correctors
+tab_corrector_list#:#Correctors
+search_correctors#:#Search Correctors
+remove_corrector#:#Remove Corrector
+remove_corrector_confirmation#:#Do you really want to remove the following corrector?
+missing_corrector_id#:#Corrector number missing.
+missing_corrector#:#Corrector not found.
+remove_writer_pending_assignments#:#Corrector could not be removed as they are still assigned as the first or second corrector.
+remove_writer_success#:#Corrector successfully removed.
+assign_corrector_success#:#Corrector(s) successfully added.
+correction_status_stitch#:#Decision Stitch
+filter_writer_admin_list_all#:#All
+filter_writer_admin_list_attended#:#Participated
+filter_writer_admin_list_not_attended#:#Did not Participate
+filter_writer_admin_list_with_extension#:#With Time Extension
+filter_corrector_admin_list_all#:#All
+filter_corrector_admin_list_corrected#:#Corrected
+filter_corrector_admin_list_not_corrected#:#Not yet Corrected
+filter_corrector_admin_list_with_stitch#:#Decision Stitch Required
+log_type#:#Type
+alert_send#:#Sent
+log_type_alert#:#Alert
+log_entry_entered#:#Entered
+log_entries#:#Log Entries
+writing_authorized_log_description#:#The submission by %s was authorized retrospectively by %s.
+time_extension_log_description#:#The time extension of %s was changed from %s to %s minutes.
+writer_exclusion_log_description#:#The participant %s was excluded by %s.
+log_type_exclusion#:#Exclusion
+log_type_extension#:#Time Extension
+log_type_authorize#:#Authorization
+log_type_note#:#Note
+log_type_all#:#All
+log_entry_text#:#Note
+alert_text#:#Text
+alert_recipient#:#Recipient
+alert_recipient_all#:#All
+create_log_entry#:#Add Note
+create_alert#:#Send Notification
+alert_created#:#Notification sent.
+log_entry_created#:#Note added.
+corrector_assignment_changed#:#Corrector assignment changed.
+writing_excluded_from#:#excluded from
+repeal_exclude_participant#:#Repeal Exclusion
+repeal_exclude_participant_confirmation#:#Do you really want to repeal the exclusion of the following participant?
+missing_essay#:#Essay could not be found.
+writer_exclusion_repeal_log_description#:#The exclusion of participant %s was repealed by %s.
+essay_not_excluded#:#The participant was not excluded, so the exclusion cannot be repealed.
+exclude_writer_repeal_success#:#Participant exclusion successfully repealed.
+resource_availability_before#:#Before
+resource_availability_during#:#During Writing
+resource_availability_after#:#With Solution Availability
+resource_file_description#:#The file can be viewed or downloaded before, during writing, or after solution availability.
+resource_weblink#:#Web Link
+resource_edit#:#Edit Material
+resource_add#:#Add Material
+resource_availability#:#Availability
+resource_available#:#Available:
+pseudonym#:#Pseudonym
+icon_label#:#Profile Picture of
+time_exceeds_solution_availability#:#The solutions would be available during the writing time!
+writing_authorized#:#The submission has been authorized.
+writing_unauthorized#:#The authorization of the submission has been removed.
+grade_level_code#:#Code
+grade_level_code_caption#:#Internal code for matching the grade level with internal systems
+passed#:#Passed
+passed_caption#:#With this grade level, the submission has passed
+delete_grade_level#:#Delete Grade Level
+delete_grade_level_confirmation#:#Do you really want to delete the following grade level?
+export_corrections#:#Export Corrections
+export_corrections_file_prefix#:#Correction
+export_results#:#Export Results
+export_results_file_prefix#:#Results
+message_no_admin_writer_corrector#:#You cannot access this task because you are not intended for processing or correction.
+message_writing_excluded#:#You have been excluded from processing.
+message_writing_authorized#:#You have successfully submitted your exam and authorized it for correction. We wish you continued success!
+message_writing_authorized_link#:#» Exit Exam
+message_writing_returned_interrupted#:#You have interrupted your writing. Click "Continue Writing" to continue your exam or authorize it for correction.
+continue_writing#:#Continue Writing
+review_writing#:#View Writing in Read-Only Mode
+assign_mode#:#Assign Correctors
+assign_mode_random_equal#:#Randomly Equally Distributed
+assign_mode_random_equal_info#:#The submissions are randomly distributed to all correctors, so that each receives an approximately equal number of submissions.
+assign_not_needed#:#There are no authorized submissions with missing corrector assignments!
+assign_not_available#:#No correctors are available to be assigned!
+assign_missing_correctors#:#Missing Assignments: %s
+assign_available_correctors#:#Available Correctors: %s
+required_correctors#:#Number of Correctors
+mutual_visibility#:#Mutual Visibility
+mutual_visibility_info#:#Correctors of the same submission can see each other's corrections
+max_points#:#Maximum Points
+max_auto_distance#:#Maximum Point Difference
+max_auto_distance_info#:#Maximum difference between the lowest and highest scores at which an average grade can be formed and no decision stitch is required
+tab_correction_settings#:#Correction
+tab_correction_items#:#Submissions
+correction_settings#:#Correction Settings
+message_no_correction_items#:#You have not been assigned any submissions for correction yet.
+correction_period#:#Correction Period
+final_grade#:#Final Grade
+actions#:#Actions
+delete_writer_data#:#Delete All Participant Data
+delete_writer_data_confirmation#:#Are you sure you want to irreversibly delete all participant data?
+delete_writer_data_success#:#All participant data successfully removed.
+message_corrector_assignment_changeable#:#Corrector assignments can be changed individually for specific submissions.
+do_stich_decision#:#Make Decision Stitch
+primary_color#:#Primary Color (Background)
+primary_color_info#:#This color is used in Writer and Corrector to highlight primary action buttons.
+primary_text_color#:#Primary Color (Text)
+primary_text_color_info#:#This color is used in Writer and Corrector to highlight the labeling of primary action buttons.
+via_stitch_decision#:#via Decision Stitch
+remove_writer#:#Remove Participant
+remove_writer_confirmation#:#Are you sure you want to irreversibly remove the participant?
+remove_writer_success#:#Participant successfully removed.
+export_log#:#Export Log
+export_log_file_prefix#:#Log
+log_time#:#Time
+log_until#:#Until
+log_category#:#Category
+log_alert_to#:#To
+log_alert_to_all#:#all Participants
+log_title#:#Title
+log_content#:#Content
+log_cat_authorize#:#Authorization
+log_cat_note#:#Note
+log_cat_extension#:#Time Extension
+log_cat_exclusion#:#Exclusion
+log_cat_alert#:#Notification
+correction_filter_not_started#:#due
+correction_filter_started#:#self-started
+correction_filter_authorized#:#self-authorized
+correction_filter_stitch#:#stitch decision required
+export_steps#:#Export Processing Steps
+view_instructions#:#View Task Instructions
+view_solution#:#View Solution Hints
+message_review_period#:#The review period takes place on %s.
+content_not_available#:#No content available
+resource_delete#:#Material successfully deleted.
+result_not_available#:#not available
+result_not_finalized#:#not finalized
+result_not_graded#:#ungraded
+view_stitch_comment#:#View Stitch Decision Comment
+draw_stitch_decision#:#Make Stitch Decision
+developer_settings#:#Developer Settings
+developer_settings_info#:#These settings are not needed during normal operation.
+simulate_offline#:#Simulate Network Interruption
+simulate_offline_info#:#Requests from the Writer and Corrector web apps are rejected with the status SERVICE_UNAVAILABLE (503). This can simulate network issues during writing or correction of an exam.
+message_writing_to_authorize#:#Your writing has not been submitted for correction. Click "View Read-Only Writing" to review and submit it.
+message_writing_not_authorized#:#You have not submitted your writing for correction. Please contact the examination management if you want your writing to be evaluated.
+warning_potential_later_assignments#:#There are still participants who may need to be assigned later.
+potential_authorizations_not_started#:#Not started but in the writing time: %s
+potential_authorizations_writing#:#In progress and within the writing time: %s
+potential_authorizations_after#:#After the writing time, but not yet submitted for correction: %s
+settings_stitch_required#:#Stitch Decision
+stitch_when_distance#:#For differing points
+stitch_when_decimals#:#If the point average is not a whole number
+remove_authorizations#:#Revoke Correction Authorizations
+confirm_remove_authorizations_for#:#Do you want to revoke the correction authorization(s) for %s? This action will be logged.
+remove_authorizations_for_done#:#Correction authorizations for %s have been revoked.
+remove_authorizations_for_failed#:#Correction authorizations for %s could not be revoked.
+remove_authorization_log#:#The authorization of corrections for %s was revoked by %s.
+remove_own_authorization#:#Revoke Authorization
+confirm_remove_own_authorization#:#Do you want to revoke the following correction authorizations? This action will be logged.
+remove_own_authorization_done#:#Your correction authorizations have been revoked.
+remove_own_authorization_failed#:#Your correction authorization for %s could not be revoked.
+remove_own_authorization_log#:#The authorization of your own correction for %s was revoked by %s.
+own_position#:#Position
+own_correction#:#Own Corrections
+count_x_of_y#:#%s of %s
+count_x_total#:#%s total
+criteria_mode#:#Use Rating Criteria
+criteria_mode_none#:#No Rating Criteria
+criteria_mode_none_info#:#No criteria are provided for rating. Subpoints are entered directly in the comments.
+criteria_mode_fixed#:#Uniform Rating Criteria
+criteria_mode_fixed_info#:#Uniform rating criteria are provided for all correction staff. Subpoints are entered broken down by criterion.
+criteria_mode_corrector#:#Personal Rating Criteria
+criteria_mode_corrector_info#:#Correction staff can create their own rating criteria and share them with others. A template for all correction staff can be created in the "Rating Criteria" section. Subpoints are entered broken down by criterion.
+criteria#:#Rating Criteria
+criteria_add#:#Add Criterion
+criteria_edit#:#Edit Criterion
+criteria_max_point#:#Max Points
+criteria_max_point_desc#:#Maximum points that can be awarded for this criterion.
+delete_criteria_successful#:#Criteria deleted successfully.
+delete_criteria_failure#:#Criteria could not be deleted.
+delete_criteria#:#Delete Criterion
+delete_criteria_confirmation#:#Are you sure you want to delete the criterion irreversibly?
+copy_rating_criterion_from#:#Copy Rating Criteria from
+publish_rating_criterion#:#Share Rating Criteria
+criteria_publish_enabled#:#Criteria successfully shared.
+criteria_publish_disabled#:#Criteria are no longer shared.
+criteria_template#:#Template
+copy_criteria_successful#:#Criteria copied successfully.
+copy_criteria_failure#:#Criteria could not be copied.
+criteria_from#:#Rating Criteria from %s
+locations#:#Participation Locations
+location#:#Participation Location
+locations_info#:#Participants can be assigned a participation location, which will be displayed in the submission and result PDFs.
+assign_location#:#Assign Participation Location
+change_location#:#Change Participation Location
+location_assigned#:#Participation location assigned successfully.
+closing_message#:#Closing Message
+closing_message_info#:#The closing message is displayed to the participant after submission in the "Exams" tab.
+solution_is_not_available#:#Solution hints are not currently displayed. They can be enabled under "Organization ► Solution Hints available."
+task_instructions_file_info#:#Task instructions can also be uploaded as a PDF file. They are displayed like the text with the start of the task.
+task_solution_file_info#:#Solution hints can also be uploaded as a PDF file. They are displayed from a specified time onwards.
+missing_file#:#The file must be uploaded."
+unchanged#:#Do Not Change
+same_assigned_corrector_error#:#First corrector and second corrector cannot be the same.
+invalid_assignment_combinations_error#:#This assignment leads to prohibited combinations in some cases.
+remove_authorizations_confirmation#:#Do you want to revoke the authorization for the correction(s) for the following participants? This action will be logged.
+remove_authorizations_no_valid_essays#:#There were no corrections in the selection that can be revoked.
+change_corrector_info#:#Please note the following when there are already corrections: <ul><li>Corrections will be transferred to the new corrector</li><li>Correctors of already authorized corrections cannot be changed</li><li>Points assigned to rating criteria will be removed during transfer</li><li>Corrections by removed correctors will also be permanently removed</li></ul>
+authorize_correction#:#Authorize Correction
+confirm_authorize_correction#:#Do you want to authorize the following corrections?
+authorize_correction_done#:#Your correction has been authorized.
+no_authorizations_to_remove#:#There were no correction authorizations in your selection that can be revoked.
+no_corrections_to_authorize#:#There were no corrections in your selection that can be authorized.
+download_instructions#:#Download PDF
+download_solution#:#Download PDF
+authorize_pdf_version_info#:#When a PDF submission is added or changed, existing authorization will be removed or renewed according to the setting.
+pdf_version#:#PDF Submission
+pdf_version_edit#:#Edit PDF Submission
+pdf_version_upload#:#Upload PDF Submission
+pdf_version_info_started_essay#:#The participant has already started a text. Are you sure you want to supplement these results with the PDF upload?
+pdf_version_warning_authorized_essay#:#The participant has already submitted and authorized a text. Are you sure you want to supplement these results with the PDF upload?
+writing_remove_authorize_log_description#:#The authorization of the submission by %s was removed by %s.
+pdf_version_download#:#Download PDF Submission
+download#:#Download
+writing#:#Writing
+pdf_version_upload_successful_auth#:#The PDF version has been successfully uploaded and authorized.
+pdf_version_upload_successful_removed#:#The PDF version has been successfully removed.
+pdf_version_upload_successful_no_auth#:#The PDF version has been successfully uploaded. Authorization is pending.
+pdf_version_upload_failure#:#Please upload a PDF version.
+pdf_version_not_found#:#No PDF version could be found.
+download_corrected_pdf#:#Download Correction PDF
+tab_corrector_statistic#:#Grade Statistics
+statistic#:#Grade Statistics
+correction_count#:#Total Corrections
+correction_final#:#Finalized Corrections
+essay_count#:#Essays Eligible for Grading
+essay_final#:#Essays Graded
+essay_not_attended#:#Not Attended
+essay_passed#:#Passed
+essay_not_passed#:#Not Passed
+essay_not_passed_quota#:#Failure Rate
+essay_average_points#:#Average Points
+grade_distribution#:#Grade Distribution
+corrections_all#:#All Corrections
+essay_correction_finlized#:#Finalized Corrections
+corrector_assignment_change_file_failure#:#Something went wrong when evaluating the file.
+export_assignment_excel#:#Export Corrector Assignment
+import_assignment_excel#:#Import Corrector Assignment
+resource_title#:#Display Title
